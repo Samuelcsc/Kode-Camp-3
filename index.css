@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#auth-layout {
+  display: flex;
+  height: 50vh;
+}
+
+.image-section {
+  width: 40%;
+  height: 90%;
+  background: url(https://res.cloudinary.com/ddhuwol3r/image/upload/v1630395343/pexels-zen-chung-5749818_xvh2s2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 100px;
+  padding: 20px 20px 0 20px;
+}
+
+h2 {
+  padding-left: 100px;
+}
+
+#greeting {
+  padding: 10px 40px 40px 40px;
+  padding-left: 700px;
+}
+
+h2 {
+  padding-bottom: 40px;
+}
+
+p {
+  text-align: justify;
+  padding: 20px 60px 0px 30px;
+}
+
+.form-section {
+  width: 60%;
+  height: 90%;
+}
+
+.contact {
+  margin: 0 20px 0 120px;
+  height: 50vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 85%;
+  padding: 50px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 5px 60px 5px 60px;
+  margin-left: 1170px;
+  color: white;
+  background-color: rgb(84, 84, 235);
+  border-radius: 4px;
+}
